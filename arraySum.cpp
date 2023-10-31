@@ -4,6 +4,13 @@ using namespace std;
 
 int findSum(int arr[], int n){
 
+    if(n==0){
+        return 0;
+    }
+    
+    if(n==1){
+        return arr[0];
+    }
     if(n==2){
         return arr[0] + arr[1];
     }
